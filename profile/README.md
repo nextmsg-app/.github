@@ -6,6 +6,8 @@
 curl -d 'Deploy finished' https://api.nextmsg.app/p/$NEXTMSG_KEY
 ```
 
+![NextMsg demo: send a push notification from curl or Claude Code to your phone](https://raw.githubusercontent.com/nextmsg-app/mcp/main/assets/demo.gif)
+
 - 🤖 **MCP server:** [`@nextmsg/mcp`](https://github.com/nextmsg-app/mcp) gives Claude, Cursor, Codex, Antigravity and other agents a `notify_human` tool ([npm](https://www.npmjs.com/package/@nextmsg/mcp))
 - 🏠 **Home Assistant:** [NextMsg integration](https://github.com/nextmsg-app/home-assistant) for HACS: set up with a code from the app, one notify entity per channel
 - ⚙️ **GitHub Action:** [NextMsg Notify](https://github.com/marketplace/actions/nextmsg-notify) on the Marketplace: `uses: nextmsg-app/notify-action@v1`
